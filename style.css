@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-body {
+body ,html{
     overflow-x: hidden;
     background-color: rgb(255, 255, 200);
 }
@@ -368,27 +368,14 @@ iframe {
 
 /* Image Floating Effect */
 .big-right {
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(15px);
+  
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
-    animation: floatEffect 4s infinite ease-in-out;
+ 
 }
 
-@keyframes floatEffect {
-    0% {
-        transform: translateY(0px);
-    }
 
-    50% {
-        transform: translateY(-18px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
 
 .big-img img {
     width: 100%;
